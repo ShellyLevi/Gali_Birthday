@@ -219,7 +219,7 @@ const poemLines = [
   'את באמת הבן אדם הכי טוב בעולם,',
   'ולא סתם אהובה על כולם.',
   'יש בך איכויות שכל אחד היה רוצה,',
-  'ואיתך יום שלם אפשר להיות ולא למצא.',
+  'ואיתך יום שלם אפשר להיות ולא למצה.',
   'שתלמדי להמנע משיחות חולין,',
   'ושתאכלי מלא קלוריות מבלי להשמין.',
   'שתמשיכי להכין פעילויות ולחגוג יום הולדת לכל אחד,',
@@ -306,8 +306,8 @@ function Screen2({ onNext, playRace }) {
       <div style={{position:'absolute',bottom:0,left:0,right:0,height:5,background:'linear-gradient(90deg,#7b1fa2,#e91e8c,#7b1fa2)'}}/>
 
       <div style={{textAlign:'center', marginBottom:24}}>
-        <div style={{color:'#4a0072', fontWeight:900, fontSize:'1.15rem', marginBottom:4}}>המשימה שלך</div>
-        {!opened && <p style={{color:'rgba(74,0,114,0.5)', fontSize:'0.85rem', margin:0}}>לחצי על המעטפה לפתיחה</p>}
+        <div style={{color:'#4a0072', fontWeight:900, fontSize:'1.15rem', marginBottom:4}}></div>
+        {!opened && <p style={{color:'rgba(74,0,114,0.5)', fontSize:'0.85rem', margin:0}}></p>}ד
       </div>
 
       {/* ── ENVELOPE ── */}
